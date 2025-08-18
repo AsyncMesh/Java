@@ -90,7 +90,7 @@ Then use it like:
 <t:nav />
 ```
 
-### 3. <jsp:include> (dynamic include)
+### 3. Dynamic include (`<jsp:include>`)
 
 - Content is included at runtime.
 - Useful when the included file needs to process logic or dynamic data.
