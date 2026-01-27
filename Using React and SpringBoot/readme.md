@@ -548,10 +548,89 @@ Types of variables in JavaScript:
 ## Non-Primitive Data Types:
 
 1. Object
-2. Array
-3. Function
-4. Map
-5. Set
+
+Functions in JavaScript:
+Normal or Concrete Function:
+
+```javascript
+function functionName(parameters){
+   //function body
+}
+```
+
+Paramaterized Function:
+
+```javascript
+function functionName(param1, param2){
+   //function body
+}
+```
+
+Funtion with return type:
+
+```javascript
+function functionName(){
+   //function body
+   return value;
+}
+```
+
+Annonymous Function:
+```javascript
+let functionName = function(parameters){
+   //function body
+}
+```
+
+callback Function:
+```javascript
+function functionName(callback){
+   //function body
+   callback();
+}
+```
+
+higher order Function:
+```javascript
+function functionName(paramFunction){
+   //function body
+   paramFunction();
+}
+```
+
+arrow Function:
+```javascript
+let functionName = (parameters) => {
+   //function body
+}
+```
+
+function expression:
+
+```javascript
+let functionName = function(parameters){
+   //function body
+}
+```
+
+Spread Operator
+
+```javascript
+let arr1 = [1,2,3];
+let arr2 = [...arr1,4,5,6]; // [1,2,3,4,5,6]
+```
+Dom: Document Object Model
+The DOM is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as a tree of nodes.
+
+React is a javaScript library
+javascript library means collection classes and function defined by javascript to perform specific tasks.
+
+React + other libraries= frontend application
+
+It is a single page application
+React Element
+
+React Element == handedover to react dom=populate to dom= added cssdom =rendering tree ==paint on browser
 
 ---
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let i=1;
+        const changeh1=()=>{
+            var h2ref=document.getElementById("hid")
+            
+            h2ref.innerText=`JavaScript Is good ${i}`
+            i=i*1000
+        }
+        const changep=()=>{
+            var pref=document.getElementById("pid")
+            
+            pref.innerText=`Hello Is good`
+            
+        }
+        
+    </script>
+</head>
+<body>
+    <h1 id="hid">JavaScript</h1>
+    <p id="pid">Hello JS</p>
+    <button onclick="changeh1()">ChangeH1</button> &nbsp; &nbsp;
+    <button onclick="changep()">ChangeP</button>
+    <div>
+        <img src="https://picsum.photos/200/200" alt="" srcset="">
+    </div>
+</body>
+</html>
