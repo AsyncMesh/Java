@@ -1,0 +1,32 @@
+.mContainer{
+    background: #000;
+    display: flex;
+    width: 100%;
+}
+
+.lContainer{
+    background: #000;
+    width: 30%;
+    color: wheat;
+
+}
+
+.rContainer{
+    background: #000;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.rContainer a{
+    color: white;
+    text-decoration: none;
+}
+
+.rContainer a:hover{
+    text-decoration: underline;
+    color: red;
+}
